@@ -106,7 +106,7 @@ while 1:
 ```python
 num = eval(input("type the number: "))
 
-for i in range(1, num):
+for i in range(1, num + 1):
 	if i % 15 == 0:
 		print("fizzbuzz")
 	elif i % 3 == 0:
@@ -169,13 +169,13 @@ def function_name(parameter):
 ```python
 
 leap = False
-def is_leap(y):
-	if y % 4 == 0 and (y % 100 != 0 or y % 400 == 0)
+def is_leap(year):
+	if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
 		leap = True
 	return leap
     
-y = int(input("Is leap?? "))
-print(is_leap(y))
+year = int(input("Is leap?? "))
+print(is_leap(year))
 
 ```
 
@@ -184,11 +184,12 @@ print(is_leap(y))
 
 ```python
 def guesser(guess):
-	if guess == answer:
-		print("Correct! The answer was ", str(answer))
-		break
-	else:
-		print("That's not what I wanted!! Try again!!")
+	while True:
+		if guess == answer:
+			print("Correct! The answer was ", str(answer))
+			break
+		else:
+			print("That's not what I wanted!! Try again!!")
 ```
 
 ---
@@ -240,12 +241,13 @@ class Ppap:
 	def pen_adder(self, param):
 		self.result += param
 		return self.result
+	def pen_adder_reverse(self, param):
 
 pineapple_pen = Ppap()
 apple_pen = Ppap()
 
 print(pineapple_pen.pen_adder(pineapple))
-print(apple_pen.pen_adder(apple))
+print(apple_pen.pen_adder_reverse(apple))
 ```
 
 ---

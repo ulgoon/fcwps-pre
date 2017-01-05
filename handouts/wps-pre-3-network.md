@@ -1,6 +1,6 @@
 # Fastcampus 
 ## Web Programming SCHOOL
-### Python Basic
+### Network & DB Basic
 2017.1.3
 
 ---

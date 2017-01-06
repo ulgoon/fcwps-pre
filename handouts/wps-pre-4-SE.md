@@ -22,6 +22,7 @@ Software engineering (SWE) is the application of engineering to the design, deve
 ---
 ## Software Engineering
 
+
 ### Why??
 
 ---
@@ -180,6 +181,12 @@ It aims at establishing a **culture** and **environment** where building, testin
 	3. 각자 생각하는 이 과제의 점수를 보이지 않게 내려놓습니다.
 	4. 점수를 공유하고 가장 낮은 점수, 가장 높은 점수를 낸 팀원이 이 점수를 낸 이유에 대해 설명합니다.
 	5. 모든 팀원이 같은 점수를 낼 때 까지 3~4의 반복
+
+---
+## 일정 추정 과제
+1. 네이버 블로그 웹 크롤링
+2. Fizzbuzz
+3. Number guess(Functional)
 
 ---
 ## Pair Programming

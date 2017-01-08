@@ -20,12 +20,14 @@
             - Concept of OOP
             - function
             - class
+- Web Programming Basic
     - day 3. Introduce of DB, Network, Web Programming
         - Database
         - Network
         - OSI 7 Layer
         - Web Programming
         - Web Crawling with Python
+- Software Engineering Basic
     - day 4. Introduce of Software Engineering
         - DevOps
         - Software Development Life Cycle
